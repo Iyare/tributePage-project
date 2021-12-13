@@ -37,7 +37,7 @@ a:hover, #books li:hover {
 
 nav ul li {
     display: inline-block;   
-    padding: 0 1rem;
+    padding: 0 0.5rem;
 }
 
 nav>ul>li>a{
@@ -77,8 +77,9 @@ h3 {
     font-size: 2rem;
 }
 
-#image {
-    width: 100%
+img {
+    max-width: 100%;
+    display: block;
 }
 
 figure {
