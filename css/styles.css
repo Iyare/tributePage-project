@@ -1,0 +1,98 @@
+/*Color palette
+8C271E - Burnt Umber
+FFA400 - Orange
+D8DDDE - gainsboro
+D9F7FA - Light Cyan
+383F51 - charcoal
+
+Google fonts
+    font-family: 'Bebas Neue', cursive; h2
+
+    font-family: 'Pinyon Script', cursive; tagline
+
+    font-family: 'Pontano Sans', sans-serif; body
+*/
+/*---Global Styles-----*/
+html{
+    font-size: 16px;
+}
+body {
+    color: #383F51;
+    font-family: 'Pontano Sans', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+
+a {
+    color: #383F51;
+
+}
+a:hover, #books li:hover {
+    color: #FFA400;
+}
+
+/*---Site Navigation Styles---*/
+
+nav ul li {
+    display: inline-block;   
+    padding: 0 1rem;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+}
+
+/*---General Styles---*/
+section, footer {
+    margin: 2rem;
+}
+
+.his-life{
+    display: grid;
+    grid-template-columns: 0.3fr 3fr;
+
+}
+
+header p {
+    font-size: 1.5rem;
+    font-family: 'Pinyon Script', cursive;
+    line-height: 0.5rem;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color: #8C271E;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: #8C271E;
+    font-size: 2rem;
+}
+
+#image {
+    width: 100%
+}
+
+figure {
+    margin: 0;
+}
+
+#img-caption{
+    font-size: 0.8rem;
+}
+
+#books ul li{
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+#books ul li a{
+    text-decoration: none;
+}
